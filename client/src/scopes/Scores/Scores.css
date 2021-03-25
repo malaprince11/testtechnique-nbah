@@ -1,0 +1,51 @@
+.Scores {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: white;
+  height: 100%;
+}
+
+.table {
+  flex: 2;
+  padding: 0 1rem;
+  border-right: 0.5px solid #777;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  max-height:"40%";
+  max-width: 500px;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+.label {
+  color: azure;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  min-height: 100px;
+  margin: 0 1rem;
+  background-color: red;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border: 0.5px #777 solid;
+}
+
+tr > td {
+  border-top: 0.5px #777 solid;
+}
+
+thead > tr > th:not(:last-child),
+tr > td:not(:last-child) {
+  border-right: 0.5px #777 solid;
+}
